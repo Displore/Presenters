@@ -70,9 +70,7 @@ $fixers = [
 ];
 
 $finder = Symfony\Component\Finder\Finder::create()
-    ->in(__DIR__.'/config')
     ->in(__DIR__.'/src')
-    ->in(__DIR__.'/tests')
     ->ignoreDotFiles(true)
     ->ignoreVCS(true);
 
