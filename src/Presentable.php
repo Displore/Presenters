@@ -15,6 +15,7 @@ trait Presentable
      * Return a new or cached presenter instance.
      *
      * @throws \Exception
+     *
      * @return object
      */
     public function present()

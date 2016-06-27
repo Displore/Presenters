@@ -15,7 +15,6 @@ abstract class Presenter
      * Create a new presenter instance.
      * 
      * @param  $model
-     * @return void
      */
     public function __construct($model)
     {
@@ -26,6 +25,7 @@ abstract class Presenter
      * This allows for property-style retrieval.
      *
      * @param $property
+     *
      * @return mixed
      */
     public function __get($property)
